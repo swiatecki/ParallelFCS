@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/FPGA_projects/SerialFCS
+Efcs_check_parallel
+Z0 w1443285890
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/FPGA_projects/ParallelFCS
+Z4 8C:/FPGA_projects/ParallelFCS/fcs_check_parallel.vhd
+Z5 FC:/FPGA_projects/ParallelFCS/fcs_check_parallel.vhd
+l0
+L4
+V4JOO3SSeDFfh;KcmS<:Aj0
+!s100 J?C>aGA4?N;OnMUWcz5N`2
+Z6 OV;C;10.3d;59
+32
+Z7 !s110 1443285894
+!i10b 1
+Z8 !s108 1443285894.521000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/FPGA_projects/ParallelFCS/fcs_check_parallel.vhd|
+Z10 !s107 C:/FPGA_projects/ParallelFCS/fcs_check_parallel.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Afcs_check_parallel_arch
+R1
+R2
+DEx4 work 18 fcs_check_parallel 0 22 4JOO3SSeDFfh;KcmS<:Aj0
+l28
+L15
+VPzY<8BiK>KO>;UZIaVRAh0
+!s100 T?aMMBNBH7VhN=J4?_UOH3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efcs_check_parallel_tb
+Z13 w1443193778
+R1
+R2
+R3
+Z14 8C:/FPGA_projects/ParallelFCS/fcs_check_parallel_tb.vhd
+Z15 FC:/FPGA_projects/ParallelFCS/fcs_check_parallel_tb.vhd
+l0
+L6
+VQ5l[aIT@9n^Oi3Ie`zbhc0
+!s100 5P`ZMW]9dAm:9PMjD;=010
+R6
+32
+Z16 !s110 1443285895
+!i10b 1
+Z17 !s108 1443285895.217000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/FPGA_projects/ParallelFCS/fcs_check_parallel_tb.vhd|
+Z19 !s107 C:/FPGA_projects/ParallelFCS/fcs_check_parallel_tb.vhd|
+!i113 1
+R11
+R12
+Afcs_check_parallel_tb_arch
+R1
+R2
+Z20 DEx4 work 21 fcs_check_parallel_tb 0 22 Q5l[aIT@9n^Oi3Ie`zbhc0
+l43
+L12
+Z21 VzJcNg4O7bEGEPO?z;AJ=^2
+Z22 !s100 Rh`MPOEI]?A@8_T15ECR<3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
