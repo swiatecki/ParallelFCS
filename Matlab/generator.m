@@ -60,9 +60,13 @@ for i = 1:polyLen
             
             %Not proud of this
             if j <= polyLen
-                 variableString = sprintf(' R%i',j-1);
+                 variableString = sprintf(' R(%i)',j-1);
             else
-                 variableString = sprintf(' M%i',j-polyLen-1);
+                
+              
+                 %variableString = sprintf(' data_in_1(%i)',j-polyLen-1);
+              % variableString = sprintf(' data_in_1(%i)',mod(j+7,40));
+               variableString = sprintf(' data_in_1(%i)',40-j);
             end
             
            
@@ -82,8 +86,8 @@ for i = 1:polyLen
     end % end row iteration
     
    
-        prefix = sprintf('R%i <=',i);
-        outString = strcat(prefix,outString);
+        prefix = sprintf('R(%i) <=',i-1);
+        outString = strcat(prefix,outString,';');
     
            
      disp(outString);
